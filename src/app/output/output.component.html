@@ -1,0 +1,9 @@
+<div *ngFor="let item of preguntas" ngClass="contendor">
+    <div ngClass={{item.tipo}}></div>
+    <div ngClass="uno">
+        <p ngClass="p1">¿{{item.pregunta}}?</p>
+        <p ngClass="p2">{{item.respuesta}}</p>
+    </div>
+
+
+</div>
