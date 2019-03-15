@@ -1,17 +1,3 @@
-<!--The content below is only a placeholder and can be replaced.-->
-
-<section class="arriba">
-  <div class="uno">
-
-
-    <h1>Soy el oráculo</h1>
-
-    <h2>Introduce una pregunta y te responderé</h2>
-  </div>
-  <div class="dos">
-    <app-input (newQuestion)="cogePregunta($event)" ></app-input>
-
-  </div>
-  <app-output [preguntas]="preguntas"></app-output>
-
-</section>
+<div class="App">
+  <router-outlet></router-outlet>
+</div>
